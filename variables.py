@@ -11,12 +11,12 @@ try:
         print('\033[1;34m\tMultiplications:\033[0m ', result_2)
     else:
         print('\033[91m\tError!\033[0m Please, enter \'+\' to Sum or \'*\' to Multiplicate.')
-    y = str(input('If you want to see result of Sum and of Multiplications enter \'do\': '))
-    if y == 'do':
+    x = str(input('If you want to see result of Sum and of Multiplications enter \'+,*\': '))
+    if x == '+,*':
         print('\033[93m\tSum:\033[0m ', result_1)
         print('\033[93m\tMultiplications:\033[0m ', result_2)
     else:
-        print('Bye, World!')
+        print('\tBye, World!')
 
 except Exception as e:
     print (e)
