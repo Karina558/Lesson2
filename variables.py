@@ -1,7 +1,8 @@
 try:
-    number = int(input('Enter number: '))
-    percentage = int(input('Enter percentage: '))
-    result = (number * percentage) / 100
-    print (result)
+    width = float(input('Enter width: '))
+    height = float(input('Enter height: '))
+    result = width * height
+    print('Square = :', result)
+
 except Exception as e:
     print (e)
